@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/coinIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/coinName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@id/coinIcon"
+        android:maxLines="1"
+        android:text="@string/coin_name"
+        style="@style/coinName"/>
+    <TextView
+        android:id="@+id/coinRankingUrl"
+        android:text="@string/coin_ranking_url"
+        style="@style/coinSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coinName"
+        android:layout_alignRight="@id/coinName"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="gravity"
+        android:gravity="end"
+        android:maxLines="2"
+        />
+    <View
+        android:background="@color/line_color"
+        android:layout_below="@id/coinRankingUrl"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+</RelativeLayout>

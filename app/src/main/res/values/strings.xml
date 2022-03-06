@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CoinRanking</string>
+
+    <string name="api_key">coinrankingae01bbbdd32ef3a2fb877c14df01e21d4e2c6227a3bf6eae</string>
+
+    <string name="coin_name">Coin Name</string>
+    <string name="coin_symbol">Coin Symbol</string>
+    <string name="coin_ranking_url">Coin Ranking Url</string>
+</resources>
